@@ -4,7 +4,7 @@
 ---
 
 ## 📋 Table of Contents
-* [1.Project Overview](#project-overview)
+* [1. Project Overview](#project-overview)
 * [2.Data Architecture & SQL Pipeline](#data-architecture--sql-pipeline)
 * [3.Technical Stack](#technical-stack)
 * [4.Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
