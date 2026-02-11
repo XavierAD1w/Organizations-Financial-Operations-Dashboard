@@ -3,18 +3,9 @@
 
 ---
 
-## 📋 Table of Contents
-* [1. Project Overview](#project-overview)
-* [2.Data Architecture & SQL Pipeline](#data-architecture--sql-pipeline)
-* [3.Technical Stack](#technical-stack)
-* [4.Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
-* [5.Strategic Visualization & Insights](#strategic-visualization--insights)
-* [6.Advanced DAX & Business Logic](#advanced-dax--business-logic)
-* [7.Limitations & Future Enhancements](#limitations--future-enhancements)
-* [8.Conclusion](#conclusion)
-* [9.How to Deploy](#how-to-deploy)
 
----
+
+
 
 ## 1. Project Overview
 In many corporate structures, financial data remains "dark"—stored in silos that make it difficult for leadership to see the bigger picture. This project addresses the **Organization's Financial** health by integrating fragmented transactional data into a unified, interactive intelligence suite.
