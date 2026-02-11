@@ -16,7 +16,7 @@
 
 ---
 
-## 1.Project Overview
+## 1. Project Overview
 In many corporate structures, financial data remains "dark"—stored in silos that make it difficult for leadership to see the bigger picture. This project addresses the **Organization's Financial** health by integrating fragmented transactional data into a unified, interactive intelligence suite.
 
 The dashboard serves as a diagnostic tool to identify **profitability leakages**, track **budget adherence**, and monitor **departmental efficiency**. By leveraging SQL for backend processing, the solution ensures that the data is not only visually appealing but also mathematically rigorous and scalable for large datasets.
