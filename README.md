@@ -4,26 +4,26 @@
 ---
 
 ## 📋 Table of Contents
-* [1. Project Overview](#project-overview)
-* [2. Data Architecture & SQL Pipeline](#2-data-architecture--sql-pipeline)
-* [3. Technical Stack](#3-technical-stack)
-* [4. Key Performance Indicators (KPIs)](#4-key-performance-indicators-kpis)
-* [5. Strategic Visualization & Insights](#5-strategic-visualization--insights)
-* [6. Advanced DAX & Business Logic](#6-advanced-dax--business-logic)
-* [7. Limitations & Future Enhancements](#7-limitations--future-enhancements)
-* [8. Conclusion](#8-conclusion)
-* [9. How to Deploy](#9-how-to-deploy)
+* [1.Project Overview](#project-overview)
+* [2.Data Architecture & SQL Pipeline](#data-architecture--sql-pipeline)
+* [3.Technical Stack](#technical-stack)
+* [4.Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
+* [5.Strategic Visualization & Insights](#strategic-visualization--insights)
+* [6.Advanced DAX & Business Logic](#advanced-dax--business-logic)
+* [7.Limitations & Future Enhancements](#limitations--future-enhancements)
+* [8.Conclusion](#conclusion)
+* [9.How to Deploy](#how-to-deploy)
 
 ---
 
-## 1. Project Overview
+## 1.Project Overview
 In many corporate structures, financial data remains "dark"—stored in silos that make it difficult for leadership to see the bigger picture. This project addresses the **Organization's Financial** health by integrating fragmented transactional data into a unified, interactive intelligence suite.
 
 The dashboard serves as a diagnostic tool to identify **profitability leakages**, track **budget adherence**, and monitor **departmental efficiency**. By leveraging SQL for backend processing, the solution ensures that the data is not only visually appealing but also mathematically rigorous and scalable for large datasets.
 
 ---
 
-## ⚙️ 2. Data Architecture & SQL Pipeline
+##  2.Data Architecture & SQL Pipeline
 I architected and implemented a relational database from the ground up, incorporating a structured SQL-based ETL process to transform, cleanse, and optimize raw data prior to visualization in Power BI.I architected and implemented a relational database from the ground up, incorporating a structured SQL-based ETL process to transform, cleanse, and optimize raw data prior to visualization in Power BI.
 
 ### **Database Schema Design**
@@ -134,7 +134,7 @@ FROM transactions
 WHERE transaction_status = 'Completed'
 GROUP BY transaction_type;
 ```
-## 🛠️ 3. Technical Stack
+##  3.Technical Stack
 To ensure a scalable and high-performance environment, the following technologies were utilized:
 * **SQL (PostgreSQL/SQL Server):** Primary engine for data storage, relational schema design, and complex server-side aggregations.
 * **Power BI Desktop:** Used for advanced data modeling, DAX implementation, and interactive UI/UX design.
@@ -143,7 +143,7 @@ To ensure a scalable and high-performance environment, the following technologie
 
 ---
 
-## 📈 4. Key Performance Indicators (KPIs)
+##  4.Key Performance Indicators (KPIs)
 The dashboard tracks the four strategic pillars of the **Organization's Financial** stability:
 1. **Gross Revenue:** Total top-line income generated across all business units.
 2. **Net Profit Margin:** The ultimate health metric—revenue remaining after all operational and non-operational costs.
@@ -152,7 +152,7 @@ The dashboard tracks the four strategic pillars of the **Organization's Financia
 
 ---
 
-## 📊 5. Strategic Visualization & Insights
+##  5.Strategic Visualization & Insights
 
 ### **Organization's Financial Health Overview**
 The dashboard provides a high-level executive summary with drill-down capabilities for granular analysis.
@@ -165,7 +165,7 @@ The dashboard provides a high-level executive summary with drill-down capabiliti
 
 ---
 
-## 🧪 6. Advanced DAX & Business Logic
+##  6.Advanced DAX & Business Logic
 The following DAX logic was developed to provide the "Organization's Financial" team with dynamic time-intelligence:
 
 ```dax
@@ -176,7 +176,7 @@ DIVIDE(
     [Revenue Last Month]
 )
 ```
-## ⚠️ 7. Limitations & Future Enhancements
+##  7.Limitations & Future Enhancements
 While this dashboard provides a robust strategic overview of the **Organization's Financial** status, the following technical and analytical boundaries exist:
 
 * **Data Granularity:** The current model utilizes **Monthly Aggregations**. Transitioning to a daily refresh cycle would allow for more precise "Pulse Checks" on specific intra-month sales campaigns and short-term operational fluctuations.
@@ -187,14 +187,14 @@ While this dashboard provides a robust strategic overview of the **Organization'
 
 ---
 
-## 🏁 8. Conclusion
+##  8.Conclusion
 The **Organization's Financial** Intelligence project demonstrates that data-driven decision-making is only as strong as the architecture behind it. By using **SQL** to ensure data integrity and **Power BI** for executive storytelling, this dashboard provides a roadmap for sustainable growth. 
 
 It shifts the organization from a **Reactive state** (responding to fiscal deficits after they occur) to a **Proactive strategy** (anticipating risks and optimizing for growth). Every financial move is now backed by a verified, scalable "Single Source of Truth."
 
 ---
 
-## 🚀 9. How to Deploy
+##  9.How to Deploy
 To replicate this environment or review the technical setup, follow these steps:
 
 # Deployment Instructions
