@@ -127,7 +127,7 @@ GROUP BY transaction_type;
 ```
 ##  3.Technical Stack
 To ensure a scalable and high-performance environment, the following technologies were utilized:
-* **SQL (PostgreSQL/SQL Server):** Primary engine for data storage, relational schema design, and complex server-side aggregations.
+* **SQL (MySQL Server):** Primary engine for data storage, relational schema design, and complex server-side aggregations.
 * **Power BI Desktop:** Used for advanced data modeling, DAX implementation, and interactive UI/UX design.
 * **Power Query (M):** Utilized for the ETL (Extract, Transform, Load) layer, connecting SQL views to the reporting engine.
 * **DAX:** Applied for sophisticated Time-Intelligence, Year-over-Year (YoY) growth, and dynamic margin calculations.
